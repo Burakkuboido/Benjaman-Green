@@ -27,6 +27,8 @@ font-weight: bold;
 }
 
 
+
+
 /* Navigation Bar */
 
 nav {
@@ -117,3 +119,22 @@ img {
     color: rgb(194, 142, 0);
     font-size: large;
 }
+
+.aboutMe {
+    color: white;
+    float: left;
+    z-index: 1;
+    margin-top: 5em;
+}
+
+.aboutMe > h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.aboutMe > p {
+    margin-top: 2em;
+    color: grey;
+}
+
+
