@@ -1,9 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@300&display=swap');
 
+/* Background */
+
+body {
+    background-color: #040404;
+    margin: 0em;
+    font-family: Georgia, serif;
+}
+
+.hero-image {
+    transform: scaleX(-1);
+}
+
+.hero-text {
+    color: white;
+    float: left;
+    z-index: 1;
+}
+
+.container-fluid > .row > .hero-text > h1, h2, h3, h4, h5 {
+    font-size: 30px;
+}
+
+.container-fluid > .row > .hero-text > h1 {
+font-weight: bold;
+}
+
+
+/* Navigation Bar */
+
 nav {
     height: 6vh;
-    background: rgba(17, 17, 17, 0.9);
-    box-shadow: 0px 0px 25px 0px rgba(51, 51, 51, 0.4);
+    background: rgba(8, 8, 8, 0.5);
     z-index: 1;
 }
 
@@ -64,4 +92,28 @@ nav a::before {
     float: right;
     margin-left: 2em;
 }
-    
+
+.container-fluid{
+    margin: 0;
+}
+
+.row{
+    margin-left: 6em;
+}
+
+
+
+h2{
+    margin-top: 7em;
+}
+
+img {
+    margin: 0;
+    justify-content: center;
+    max-height: 50em;
+}
+
+.container-fluid > .row > .hero-text > h5 > a {
+    color: rgb(194, 142, 0);
+    font-size: large;
+}
