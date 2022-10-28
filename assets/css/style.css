@@ -2,11 +2,22 @@
 
 /* Background */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #040404;
     margin: 0em;
     font-family: Georgia, serif;
+    height: fit-content;
+    overflow:auto;
 }
+
+p {
+    font-family: 'Roboto Slab';font-size: 18px;
+}
+
 
 .hero-image {
     transform: scaleX(-1);
@@ -34,7 +45,7 @@ font-weight: bold;
 nav {
     height: 6vh;
     background: rgba(8, 8, 8, 0.5);
-    z-index: 1;
+    z-index: 2;
 }
 
 nav ul {
@@ -142,22 +153,19 @@ img {
 
 
 .aboutMe-Section1 {
-    color: black;
-    background-color:rgb(44, 44, 44);
-    height: 30em;
+    color: grey;
+    height: 100vh;
 }
 
 .styles {
     margin-left: 5%;
-}
-
-.styles > h1 {
     margin-top: 5%;
 }
 
+
 .arrow {
     bottom: 20px;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
     scroll-behavior: smooth;
     text-align: center;
     margin-bottom: 5%;
@@ -175,7 +183,24 @@ img {
     color: rgb(194, 142, 0);
 }
 
+.styles {
+    text-align: center;
+    margin-right: 5%;
+}
 
+.col_01, .col_02, .col_03 {
+    border-right: 2px solid rgb(194, 142, 0);
+}
 
+.bg_image {
+    width: 100%;
+    border-radius: 5%;
+}
 
+.about_headings {
+    color: rgb(194, 142, 0);
+}
 
+.lowered {
+    margin-top: 5%;
+}
