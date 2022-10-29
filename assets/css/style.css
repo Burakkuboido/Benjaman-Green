@@ -179,7 +179,11 @@ img {
     color: rgb(194, 142, 0);
 }
 
-.talks{
+#talks{
+    color: rgb(194, 142, 0);
+}
+
+#talks:hover {
     color: rgb(194, 142, 0);
 }
 
