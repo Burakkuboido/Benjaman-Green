@@ -227,9 +227,28 @@ img {
 }
 
 .lowered {
-    margin-top: 5%;
-
+    margin-left: 10%;
+    position: relative;
+    z-index: 2;
 }
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: grey;
+}
+
+.yellow {
+    color: #f0860c;
+}
+
+.yellow:hover {
+    color: #f0860c;
+    text-decoration: none;
+}
+
 
 .container-fluid {
     margin: 0;
@@ -348,3 +367,40 @@ h1 {
     margin-left: 1.7em;
 }
 
+form {
+    z-index: 3;
+    width: 300px;
+    padding-top: 0;
+}
+
+.removepads {
+    padding-top: 10%;
+}
+
+input {
+    z-index: 3;
+    width: 100%;
+}
+
+.submitbutton {
+    height: 3em;
+    width: 7em;
+    margin-top: 10px;
+    border-radius: 12px;
+    color: #f0860c;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 9px 15px;
+    background-color: rgb(22, 22, 22);
+}
+
+#name, #email, #message {
+    border-radius: 12px;
+    background-color: rgb(22, 22, 22);
+    width: 620px;
+}
+
+textarea {
+    resize: none;
+}
