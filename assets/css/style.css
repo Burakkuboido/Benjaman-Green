@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 /* Background */
 
@@ -17,13 +18,6 @@ h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-p {
-    font-family: 'Roboto Slab';font-size: 18px;
-    text-align: center;
-    margin-left: 10%;
-}
-
-
 .hero-image {
     transform: scaleX(-1);
     float: right;
@@ -37,7 +31,7 @@ p {
     padding-left: 5%;
 }
 
-.container-fluid > .row > .hero-text > h1, h3, h4, {
+.container-fluid > .row > .hero-text > h1, h3, h4 {
     font-size: 30px;
 }
 
@@ -121,8 +115,6 @@ nav a::before {
 }
 
 .container-fluid{
-    margin: 0;
-    display: flex;
     flex-direction: column;
     height: 100%;
 }
@@ -166,9 +158,14 @@ img {
 
 
 .aboutMe > p {
-    margin-top: 2em;
     color: grey;
-    margin-left: 18%;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    margin-left: 10%;
+}
+
+.hero-text > p {
+    margin-top: 2em;
 }
 
 
@@ -190,11 +187,9 @@ img {
 
 
 .arrow {
-    bottom: 20px;
     transition: all .2s ease-in-out;
     scroll-behavior: smooth;
     text-align: center;
-    margin-bottom: 5%;
 }
 
 .arrow:hover {
@@ -218,9 +213,6 @@ img {
     margin-right: 5%;
 }
 
-.col_01, .col_02, .col_03 {
-    border-right: 2px solid rgb(194, 142, 0);
-}
 
 .bg_image {
     width: 100%;
@@ -229,10 +221,14 @@ img {
 
 .about_headings {
     color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
 }
 
 .lowered {
     margin-top: 5%;
+
 }
 
 .container-fluid {
@@ -241,7 +237,7 @@ img {
 }
 
 .col-12 {
-    margin: 0;
+    margin-top: 5%;
     padding: 0;
 }
 
@@ -249,3 +245,106 @@ img {
     margin: 0;
     padding: 0;
 }
+
+.tops, .middles, .bots {
+    width: 100vw;
+    height: 50vh;
+    margin-right: 0;
+}
+
+.tops {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#1b1b1b",GradientType=1);
+}
+
+.middles {
+    background: rgb(56,56,56);
+    background: -moz-linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#383838",endColorstr="#000000",GradientType=1);
+}
+
+.bots {
+    background: rgb(97,97,97);
+    background: -moz-linear-gradient(180deg, rgba(97,97,97,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(97,97,97,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(97,97,97,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#616161",endColorstr="#000000",GradientType=1);
+}
+
+.col-11 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.leftside {
+    float: left;
+    margin-left: 5%;
+}
+
+.rightside {
+    float: right;
+}
+
+.pads {
+    padding-top: 3%;
+}
+
+.pr_01 {
+    margin-right: 5%;
+    margin-top: 1.5%;
+    border-radius: 2%;
+}
+
+.ic_01 {
+    margin-right: 5%;
+    margin-top: 1.5%;
+    border-radius: 2%;
+}
+
+.ic_02 {
+    margin-right: 6%;
+    margin-top: 1.5%;
+    border-radius: 2%;
+}
+
+.ic_03 {
+    margin-right: 6.5%;
+    margin-top: 1.5%;
+    border-radius: 2%;
+}
+
+.ls_01 {
+    margin-right: 5%;
+    margin-top: 1.5%;
+    border-radius: 2%;
+}
+
+.ls_02 {
+    margin-right: 6%;
+    margin-top: 1.5%;
+    border-radius: 2%;
+}
+
+.ls_03 {
+    margin-right: 6.5%;
+    margin-top: 1.5%;
+    border-radius: 2%;
+}
+
+h1 {
+    color: white;
+    padding-top: 1.5%;
+    margin-left: 5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    letter-spacing: 1px;
+    padding-top: 4.6em;
+    margin-left: 1.7em;
+}
+
