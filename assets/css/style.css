@@ -493,29 +493,127 @@ textarea {
 
 /* Code Above this line has been taken from https://www.w3schools.com/howto/howto_css_modal_images.asp. */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 200px) and (max-width: 500px) {
 
-    .container-fluid { 
-        margin-left: 1px
+
+.tops, .middles, .bots {
+    width: 100vw;
+    height: 100vh;
+    margin-right: 0;
+}    
+
+.tops, .middles, .bots {
+    background: none;
+}
+
+.lowered {
+    margin-left: 0;
+}
+
+#name, #email, #message {
+    border-radius: 12px;
+    background-color: rgb(22, 22, 22);
+    width: 290px;
+    color: White;
+}
+
+
+form {
+    z-index: 3;
+    width: 200px;
+    padding-top: 0;
+}
+
+nav a {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav {
+    height: auto;
+}
+
+.hero-text > h2 {
+    margin-top: 0.5em;
+    font-size: 52px;
+}
+
+.hero-text > p {
+    margin-top: 0em;
+    font-size: 32px;
+}
+
+.aboutMe {
+    padding-left: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+.aboutMe > h3 {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.aboutMe > p {
+    text-align: center;
+    padding-left: 1%;
+    font-size: 20px;
+    margin-left: 0%;
     }
 
-    .hero-text > h2 {
-        margin-top: 0;
-    }
-    nav a {
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
+.pr_01, .ic_01, .ic_02, .ic_03, .ls_01, .ls_02, .ls_03 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    margin-top: 5%;
+}
 
-    nav {
-        height: auto;
-    }
 
-    .lowered {
-        margin: 0;
-        padding-bottom: 10px;
+.arrow {
+    margin-top: 10%;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 500px) and (max-width:600){
+
+.container-fluid { 
+    margin-left: 1px
+}
+
+.hero-text > h2 {
+    margin-top: 0;
+}
+
+nav a {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav {
+    height: auto;
+}
+
+.lowered {
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 .pad_bot {
@@ -587,208 +685,209 @@ textarea {
 
 .aboutMe > p {
     margin-left: auto;
-  }
+}
 
-  .aboutMe > h3 {
+.aboutMe > h3 {
     text-align: center;
-  }
+}
 
-  .modal-content {
+.modal-content {
     margin: auto;
     display: block;
     width: 100%;
     max-width: 700px;
     height: 100%;
-  }
+}
 }
 
-    @media only screen and (min-width: 600px) and (max-width: 960px){
+@media only screen and (min-width: 600px) and (max-width: 960px){
 
 
-    nav a {
-        margin-right: 3em;
-        margin-left: 3em;
-        margin-bottom: 10px;
-    }
+nav a {
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-bottom: 10px;
+}
 
-    .aboutMe {
-        padding-left: 0%;
-        margin-left: 5%;
-        margin-right: 5%;
-    } 
-    .aboutMe > h3 {
-        text-align: center;
-        margin-bottom: 10%;
-        margin-top: 5%;
-    }
+.aboutMe {
+    padding-left: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
 
-    .aboutMe > p {
-        text-align: center;
-        padding-left: 1%;
-        font-size: 20px;
-        margin-left: 0%;
-      }
+.aboutMe > h3 {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
 
-    .pr_01, .ic_01, .ic_02, .ic_03, .ls_01, .ls_02, .ls_03 {
-        border-radius: 2%;
-        z-index: 2;
-        float: none;
-        -ms-flex-align: center;
-        margin-left: 10%;
-        margin-top: 10%;
-    }
+.aboutMe > p {
+    text-align: center;
+    padding-left: 1%;
+    font-size: 20px;
+    margin-left: 0%;
+}
 
-    #myImg_02 {
-        width: 300px;
-    }
+.pr_01, .ic_01, .ic_02, .ic_03, .ls_01, .ls_02, .ls_03 {
+    border-radius: 2%;
+    z-index: 2;
+    float: none;
+    -ms-flex-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+}
 
-    .hero-text > h2 {
-        margin-top: 2em;
-        font-size: 52px;
-    }
+#myImg_02 {
+    width: 300px;
+}
 
-    .hero-text > p {
-        margin-top: 2em;
-        font-size: 32px;
-    }
+.hero-text > h2 {
+    margin-top: 2em;
+    font-size: 52px;
+}
 
-    .arrow {
-        margin-top: 40%;
-        font-size: 64px;
-    }
+.hero-text > p {
+    margin-top: 2em;
+    font-size: 32px;
+}
 
-    .modal-content {
-        margin: auto;
-        display: block;
-        width: 100%;
-        max-width: 700px;
-        height: 100%;
-      }
+.arrow {
+    margin-top: 40%;
+    font-size: 64px;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+}
 }
 
 @media screen and (min-device-width: 960px) and (max-device-width: 1600px) {
 
-    nav a {
-        margin-right: 3em;
-        margin-left: 3em;
-        margin-bottom: 10px;
+nav a {
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-bottom: 10px;
+}
+
+.aboutMe {
+    padding-left: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+.aboutMe > h3 {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.aboutMe > p {
+    text-align: center;
+    padding-left: 1%;
+    font-size: 32px;
+    margin-left: 0%;
+    width: 100%;
     }
 
-    .aboutMe {
-        padding-left: 0%;
-        margin-left: 5%;
-        margin-right: 5%;
-    } 
-    .aboutMe > h3 {
-        text-align: center;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
+.pr_01, .ic_01, .ic_02, .ls_01, .ls_02 {
+    border-radius: 2%;
+    z-index: 2;
+    float: right;
+    -ms-flex-align: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
-    .aboutMe > p {
-        text-align: center;
-        padding-left: 1%;
-        font-size: 32px;
-        margin-left: 0%;
-        width: 100%;
-      }
+#myImg_02 {
+    width: 300px;
+}
 
-    .pr_01, .ic_01, .ic_02, .ls_01, .ls_02 {
-        border-radius: 2%;
-        z-index: 2;
-        float: right;
-        -ms-flex-align: center;
-        flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+.hero-text > h2 {
+    margin-top: 2em;
+    font-size: 52px;
+}
 
-    #myImg_02 {
-        width: 300px;
-    }
+.hero-text > p {
+    margin-top: 2em;
+    font-size: 32px;
+}
 
-    .hero-text > h2 {
-        margin-top: 2em;
-        font-size: 52px;
-    }
+.arrow {
+    margin-top: 25%;
+    font-size: 64px;
+}
 
-    .hero-text > p {
-        margin-top: 2em;
-        font-size: 32px;
-    }
+.hero-image > img {
+    display: none;
+}
 
-    .arrow {
-        margin-top: 25%;
-        font-size: 64px;
-    }
+.col-xl-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
 
-    .hero-image > img {
-        display: none;
-    }
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+}
 
-    .col-xl-6 {
-        max-width: 100%;
-        flex: 0 0 100%;
-    }
+    h1 {
+    color: white;
+    padding-top: 1.5%;
+    margin-left: 5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 62px;
+    letter-spacing: 1px;
+    padding-top: 4.6em;
+    margin-left: 1.7em;
+}
 
-    .modal-content {
-        margin: auto;
-        display: block;
-        width: 100%;
-        max-width: 700px;
-        height: 100%;
-      }
-
-      h1 {
-        color: white;
-        padding-top: 1.5%;
-        margin-left: 5%;
-        font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        font-size: 62px;
-        letter-spacing: 1px;
-        padding-top: 4.6em;
-        margin-left: 1.7em;
-    }
-
-      form {
-        z-index: 3;
-        width: 300px;
-        padding-top: 0;
-    }
+    form {
+    z-index: 3;
+    width: 300px;
+    padding-top: 0;
+}
     
-    .removepads {
-        padding-top: 10%;
-    }
+.removepads {
+    padding-top: 10%;
+}
     
-    input {
-        z-index: 3;
-        width: 100%;
-    }
+input {
+    z-index: 3;
+    width: 100%;
+}
     
-    .submitbutton {
-        height: 3em;
-        width: 7em;
-        margin-top: 10px;
-        border-radius: 12px;
-        color: #f0860c;
-        font-size: 18px;
-        font-weight: 500;
-        text-align: center;
-        padding: 9px 15px;
-        background-color: rgb(22, 22, 22);
-        cursor: pointer;
-    }
+.submitbutton {
+    height: 3em;
+    width: 7em;
+    margin-top: 10px;
+    border-radius: 12px;
+    color: #f0860c;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 9px 15px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+}
     
-    #name, #email, #message {
-        border-radius: 12px;
-        background-color: rgb(22, 22, 22);
-        width: 1000px;
-        color: White;
-    }
+#name, #email, #message {
+    border-radius: 12px;
+    background-color: rgb(22, 22, 22);
+    width: 1000px;
+    color: White;
+}
     
-    .laptops > p {
-        font-size: 24px;
-    }
+.laptops > p {
+    font-size: 24px;
+}
 
 }
