@@ -889,5 +889,42 @@ input {
 .laptops > p {
     font-size: 24px;
 }
+}
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(8, 8, 8, 0.5);
+    display: block;
+    color: white;
+ }
+
+ .social {
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social li {
+    display: inline;
+    color: inherit;
+    float: right;
+    transform: scale(1.2);
+    letter-spacing: 3em;
+}
+
+.social :hover {
+    color: #f0860c;
+}
+
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    float: left;
+    justify-content: center;
+    padding-bottom: 15px;
 }
